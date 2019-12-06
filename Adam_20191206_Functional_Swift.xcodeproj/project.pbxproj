@@ -14,6 +14,7 @@
 		7A31F6F32399D8F6007BCA0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A31F6F22399D8F6007BCA0F /* Assets.xcassets */; };
 		7A31F6F62399D8F6007BCA0F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A31F6F52399D8F6007BCA0F /* Preview Assets.xcassets */; };
 		7A31F6F92399D8F6007BCA0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A31F6F72399D8F6007BCA0F /* LaunchScreen.storyboard */; };
+		7A31F7022399D95D007BCA0F /* HYShipModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A31F7012399D95D007BCA0F /* HYShipModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		7A31F6F52399D8F6007BCA0F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7A31F6F82399D8F6007BCA0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A31F6FA2399D8F6007BCA0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A31F7012399D95D007BCA0F /* HYShipModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HYShipModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		7A31F6E82399D8F1007BCA0F /* Adam_20191206_Functional_Swift */ = {
 			isa = PBXGroup;
 			children = (
+				7A31F7002399D90E007BCA0F /* Battleship */,
 				7A31F6E92399D8F1007BCA0F /* AppDelegate.swift */,
 				7A31F6EB2399D8F1007BCA0F /* SceneDelegate.swift */,
 				7A31F6F02399D8F1007BCA0F /* ContentView.swift */,
@@ -76,6 +79,14 @@
 				7A31F6F52399D8F6007BCA0F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7A31F7002399D90E007BCA0F /* Battleship */ = {
+			isa = PBXGroup;
+			children = (
+				7A31F7012399D95D007BCA0F /* HYShipModel.swift */,
+			);
+			path = Battleship;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,6 +115,7 @@
 		7A31F6DE2399D8F1007BCA0F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = HY;
 				LastSwiftUpdateCheck = 1110;
 				LastUpgradeCheck = 1110;
 				ORGANIZATIONNAME = Adonis_HongYang;
@@ -152,6 +164,7 @@
 				7A31F6EA2399D8F1007BCA0F /* AppDelegate.swift in Sources */,
 				7A31F6EC2399D8F1007BCA0F /* SceneDelegate.swift in Sources */,
 				7A31F6F12399D8F1007BCA0F /* ContentView.swift in Sources */,
+				7A31F7022399D95D007BCA0F /* HYShipModel.swift in Sources */,
 				7A31F6EF2399D8F1007BCA0F /* Adam_20191206_Functional_Swift.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
